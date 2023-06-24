@@ -2,7 +2,7 @@
 
 import React from 'react';
 import RightSectionSidebar from './RightSectionSidebar';
-import ChartComponent from './chart/chart';
+// import ChartComponent from './chart/chart';
 
 const RightSection = () => {
   return (
@@ -25,20 +25,20 @@ const RightSection = () => {
           <div className='flex justify-between'>
             <div>
               <div className='mt-14'>
-                <h4 className='text-[#192A3E] text-3xl font-medium'>
+                <h4 className='text-[#192A3E] text-3xl font-medium  font-[Poppins]'>
                   Monthly Profit
                 </h4>
                 <div className='flex items-center'> 
-                  <h2 className='text-[#90A087] '>Total Profit For October</h2>
+                  <h2 className='text-[#90A087]  font-[Poppins]'>Total Profit For October</h2>
                   <img src="/icons/static_errow.svg" alt="" className='inline-block ml-2' />
                 </div>
               </div>
               <div className='mt-10'>
-                <h4 className='text-[#90A087] text-lg font-medium'>
+                <h4 className='text-[#90A087] text-lg font-medium  font-[Poppins]'>
                   Affiliate
                 </h4>
                 <div className=''> 
-                  <h2 className='text-[#192A3E] text-4xl'>24%</h2>
+                  <h2 className='text-[#192A3E] text-4xl  font-[Poppins]'>24%</h2>
                   <div className="w-28 h-2 bg-[#FFEEF1] rounded-full mt-1">
                     <div className="w-1/2 h-full bg-purple-500 rounded-full"> </div>
                   </div>
@@ -46,11 +46,11 @@ const RightSection = () => {
                 </div>
               </div>
               <div className='mt-6'>
-                <h4 className='text-[#90A087] text-lg font-medium'>
+                <h4 className='text-[#90A087] text-lg font-medium  font-[Poppins]'>
                   Offline Sales
                 </h4>
                 <div className=''> 
-                  <h2 className='text-[#192A3E] text-4xl'>16%</h2>
+                  <h2 className='text-[#192A3E] text-4xl  font-[Poppins]'>16%</h2>
                   <div className="w-28 h-2 bg-[#FFEEF1] rounded-full mt-1">
                     <div className="w-1/2 h-full bg-[#FFB948] rounded-full"> </div>
                   </div>
@@ -62,13 +62,13 @@ const RightSection = () => {
             </div>
           </div>
           <div className='mt-6'>
-            <h4 className='text-3xl font-medium'>
+            <h4 className='text-3xl font-medium  font-[Poppins]'>
               Yearly Profit
             </h4>
-            <p className='text-[#90A087]'> Year 2022</p>
+            <p className='text-[#90A087]  font-[Poppins]'> Year 2022</p>
           </div>
           <div>
-            <ChartComponent />
+            {/* <ChartComponent /> */}
           </div>
 
         </div>

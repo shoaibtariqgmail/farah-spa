@@ -1,13 +1,16 @@
-// pages/DashboardPage.js
 
-import React from 'react';
 import DashboardLayout from '../components/layouts/DashboardLayout';
+import React from 'react';
+import 'typeface-nunito';
+import 'typeface-poppins';
 
 const DashboardPage = () => {
   return (
-    <DashboardLayout>
-      {/* Add your specific dashboard page content here */}
+    <>
+      <DashboardLayout>
     </DashboardLayout>
+    </>
+   
   );
 };
 

@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'nunito';
 }
 .border-b-1{
   border-bottom-width: 1px;
