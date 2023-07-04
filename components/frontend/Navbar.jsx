@@ -96,7 +96,9 @@ const Navbar = () => {
             </li>
             </ul>
        </div>
-       <img src="/icons/frontend/bag.svg" alt="" className='h-9 w-9 cursor-pointer' />
+       <Link href="/cart">
+        <img src="/icons/frontend/bag.svg" alt="" className='h-9 w-9 cursor-pointer' />
+       </Link>
      </div>
     </nav>
       <div className={`bg-black flex pl-24 collection  ${show === true ? 'block transition-all duration-500 ease-in-out' : 'hidden'}`}> 

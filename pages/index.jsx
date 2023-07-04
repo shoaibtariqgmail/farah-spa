@@ -65,12 +65,13 @@ const index = () => {
       <Navbar />
       <div className="container mx-auto md:px-20 flex justify-around py-4 px-4 ">
       <Swiper
-        slidesPerView={4}
-        navigation={{
-          prevEl: '.custom-prev',
-          nextEl: '.custom-next',
-        }}
-      >
+      slidesPerView={4}
+      pagination={{ type: 'bullets', clickable: true }}
+      navigation={{
+        prevEl: '.custom-prev',
+        nextEl: '.custom-next',
+      }}
+    >
         {
           lawnVariety.map((item,index) => (
             
