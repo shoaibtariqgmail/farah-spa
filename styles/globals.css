@@ -18,13 +18,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    font-family: 'nunito';
+  font-family: 'nunito';
+ 
 }
 .border-b-1{
   border-bottom-width: 1px;
@@ -33,5 +28,41 @@ body {
   box-shadow: 0px -4px 6px rgb(14 14 14 / 20%);
 
 }
+.zoom-effect {
+  transition: transform 0.1s;
+}
 
+.zoom-effect:hover {
+  transform: scale(1.05);
+}
+.btn-zoom-effect {
+  transition: transform 0.5s;
+}
+
+.btn-zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+.hide {
+  transform: translateY(0);
+  transition: transform 0.5s;
+  animation: fade-in 5s;
+  
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .collection {
+    display: none;
+    
+  }
+}
 
